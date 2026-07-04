@@ -144,8 +144,8 @@ const TERMINAL_LINES: LineData[] = [
     num: 1,
     tokens: [
       { text: "const ", className: "text-white/60" },
-      { text: "moderator = ", className: "text-white" },
-      { text: '"Ranik Sen"', className: "text-emerald-400" },
+      { text: "developer = ", className: "text-white" },
+      { text: '"Zayan Rahman"', className: "text-emerald-400" },
       { text: ";", className: "text-white" }
     ]
   },
@@ -154,11 +154,11 @@ const TERMINAL_LINES: LineData[] = [
     tokens: [
       { text: "const ", className: "text-white/60" },
       { text: "skills = [", className: "text-white" },
-      { text: '"Community Scaling"', className: "text-orange-400" },
+      { text: '"React / TypeScript"', className: "text-orange-400" },
       { text: ", ", className: "text-white" },
-      { text: '"AI Prototyping"', className: "text-orange-400" },
+      { text: '"Node.js / Express"', className: "text-orange-400" },
       { text: ", ", className: "text-white" },
-      { text: '"Excel Admin"', className: "text-orange-400" },
+      { text: '"AI Integrations"', className: "text-orange-400" },
       { text: "];", className: "text-white" }
     ]
   },
@@ -200,7 +200,7 @@ const TERMINAL_LINES: LineData[] = [
   {
     num: 8,
     tokens: [
-      { text: "    academicLogisticsAccuracy: ", className: "text-white" },
+      { text: "    codeCompilationAccuracy: ", className: "text-white" },
       { text: '"100%"', className: "text-emerald-400" }
     ]
   },
@@ -672,7 +672,7 @@ function AboutMeModal({ isOpen, onClose, muted }: AboutMeModalProps) {
                   <div className="absolute inset-0 bg-gradient-to-tr from-accent to-indigo-500 opacity-20 group-hover:opacity-30 transition-opacity" />
                   <img
                     src={ranikAvatar}
-                    alt="Ranik Sen Avatar"
+                    alt="Zayan Rahman Avatar"
                     className="w-full h-full object-cover rounded-[20px] filter saturate-[1.1] contrast-[1.05]"
                     referrerPolicy="no-referrer"
                   />
@@ -687,9 +687,9 @@ function AboutMeModal({ isOpen, onClose, muted }: AboutMeModalProps) {
                 </div>
 
                 <div className="space-y-1">
-                  <h3 className="text-2xl md:text-3xl font-extrabold text-white">Ranik Sen</h3>
+                  <h3 className="text-2xl md:text-3xl font-extrabold text-white">Zayan Rahman</h3>
                   <p className="font-mono text-[10px] text-accent uppercase tracking-widest font-black">
-                    Community Operations & Tech
+                    Full-Stack Web Dev
                   </p>
                 </div>
               </div>
@@ -698,19 +698,19 @@ function AboutMeModal({ isOpen, onClose, muted }: AboutMeModalProps) {
               <div className="space-y-3.5 border-t border-white/5 pt-6 font-mono text-[11px] text-white/60">
                 <div className="flex justify-between">
                   <span className="text-white/40 uppercase">HQ LOCATION:</span>
-                  <span className="text-white font-medium">Chittagong, BD</span>
+                  <span className="text-white font-medium">Dhaka, BD</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-white/40 uppercase">DIPLOMA LEVEL:</span>
-                  <span className="text-white font-medium">High School / Coll</span>
+                  <span className="text-white font-medium">Bachelor of Science</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-white/40 uppercase">TYPING CORE:</span>
-                  <span className="text-accent font-bold">75+ WPM (Specialist)</span>
+                  <span className="text-white/40 uppercase">CORE SPECIALTY:</span>
+                  <span className="text-accent font-bold">React & Node.js</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-white/40 uppercase">NETWORKS SCALE:</span>
-                  <span className="text-emerald-400 font-bold">4.5 Lakh+ Learners</span>
+                  <span className="text-white/40 uppercase">ACTIVE PROJECTS:</span>
+                  <span className="text-emerald-400 font-bold">5+ Web Apps</span>
                 </div>
               </div>
             </div>
@@ -752,13 +752,13 @@ function AboutMeModal({ isOpen, onClose, muted }: AboutMeModalProps) {
                         className="space-y-4 text-sm text-white/75 leading-relaxed"
                       >
                         <p>
-                          Hello! I am a student, tech manager, and community builder based in Chittagong, Bangladesh. I believe in translating human power into clean digital infrastructure.
+                          Hello! I am a software engineer and community builder based in Dhaka, Bangladesh. I believe in translating complex requirements into robust and clean digital solutions.
                         </p>
                         <p>
-                          Currently, I work closely with <span className="text-accent font-semibold">Apars Classroom (ACS)</span>, one of Bangladesh's most prominent edtech initiatives. I serve as the Lead Moderator of <span className="text-emerald-400 font-semibold">Math & Science Nards</span>, scaling discussion pipelines and resolving conflicts across a community of <strong>450,000+ active student peers</strong>.
+                          Currently, I work closely with <span className="text-accent font-semibold">DevFlow Platforms</span>, an initiative designed to provide open-source resources and learning networks for developers. I serve as the core platform lead, scaling collaborative features and managing system uptime for over <strong>50,000+ developers</strong>.
                         </p>
                         <p>
-                          Simultaneously, I serve as a registrations leader at <span className="text-indigo-400 font-semibold">Achieve Exam Centre</span>, coordinating offline centers, localized on-field workshops, and ensuring precise databases for 5,000+ localized student registrations.
+                          Simultaneously, I serve as a technical manager at <span className="text-indigo-400 font-semibold">CodeSync Academy</span>, coordinating multi-center database systems, localized workshops, and ensuring precise API configurations for localized student registries.
                         </p>
                       </motion.div>
                     )}
@@ -772,14 +772,14 @@ function AboutMeModal({ isOpen, onClose, muted }: AboutMeModalProps) {
                         className="space-y-4"
                       >
                         <p className="text-sm text-white/70 leading-relaxed">
-                          Beyond moderation and logistics spreadsheets, I am fueled by interactive technology and local on-field development. Here are the core pursuits that capture my dedication:
+                          Beyond software and architecture spreadsheets, I am fueled by interactive technology and open-source contributions. Here are the core pursuits that capture my dedication:
                         </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
                           {[
-                            { title: "Public Speaking", desc: "Leading workshops and coordinate on-field campus campaigns." },
-                            { title: "Competitive Chess", desc: "Deeply interested in analytical strategies and logic loops." },
-                            { title: "Academic Tutoring", desc: "Coaching juniors in algebra, physics, and computational thinking." },
-                            { title: "Generative AI Bots", desc: "Configuring automated screening templates and bot proxies." }
+                            { title: "Open Source", desc: "Contributing to utility libraries and interactive components." },
+                            { title: "Technical Writing", desc: "Authoring deep-dives on full-stack web architectures." },
+                            { title: "Hackathons", desc: "Developing rapid prototypes and AI-powered interfaces." },
+                            { title: "Mentorship", desc: "Coaching junior developers in TypeScript and database designs." }
                           ].map((item, idx) => (
                             <div key={idx} className="p-3.5 rounded-xl bg-white/5 border border-white/5 hover:border-accent/10 transition-colors">
                               <h4 className="font-bold text-xs text-white flex items-center gap-1.5">
@@ -802,28 +802,28 @@ function AboutMeModal({ isOpen, onClose, muted }: AboutMeModalProps) {
                         className="space-y-4 text-sm text-white/75 leading-relaxed"
                       >
                         <p>
-                          My analytical foundations were built through competitive scientific challenges:
+                          My technical foundations were recognized through various challenges and achievements:
                         </p>
                         <ul className="space-y-3 font-mono text-[11px] text-white/60">
                           <li className="flex gap-2 items-start">
                             <Award size={14} className="text-accent shrink-0 mt-0.5" />
                             <div>
-                              <strong className="text-white">Bangladesh Mathematical Olympiad (2022)</strong>
-                              <p className="text-[10px] text-white/40 mt-0.5">National Level Contender & Selected Participant</p>
+                              <strong className="text-white">National Programming Contest (2023)</strong>
+                              <p className="text-[10px] text-white/40 mt-0.5">Top Tier Contender & Recognized Problem Solver</p>
                             </div>
                           </li>
                           <li className="flex gap-2 items-start">
                             <Award size={14} className="text-accent shrink-0 mt-0.5" />
                             <div>
-                              <strong className="text-white">Bangladesh Olympiad Challenge / Math (2025)</strong>
-                              <p className="text-[10px] text-white/40 mt-0.5">Competitor showcasing complex problem-solving abilities</p>
+                              <strong className="text-white">National Hackathon Challenge (2025)</strong>
+                              <p className="text-[10px] text-white/40 mt-0.5">Champion Team showcasing rapid React & AI prototyping skills</p>
                             </div>
                           </li>
                           <li className="flex gap-2 items-start">
                             <CheckCircle size={14} className="text-emerald-400 shrink-0 mt-0.5" />
                             <div>
-                              <strong className="text-white">Community Champion Award</strong>
-                              <p className="text-[10px] text-white/40 mt-0.5">Recognized by Senior EdTech Educators for moderation merit</p>
+                              <strong className="text-white">Tech Excellence Award</strong>
+                              <p className="text-[10px] text-white/40 mt-0.5">Recognized by community peers for exceptional open-source contributions</p>
                             </div>
                           </li>
                         </ul>
@@ -837,10 +837,10 @@ function AboutMeModal({ isOpen, onClose, muted }: AboutMeModalProps) {
               <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div className="flex items-center gap-2">
                   <Mail size={14} className="text-accent" />
-                  <span className="font-mono text-[11px] text-white/60">raniksen202024@gmail.com</span>
+                  <span className="font-mono text-[11px] text-white/60">zayan.rahman.dev@gmail.com</span>
                 </div>
                 <button
-                  onClick={() => { playSynthSound('success', muted); window.location.href = "mailto:raniksen202024@gmail.com"; }}
+                  onClick={() => { playSynthSound('success', muted); window.location.href = "mailto:zayan.rahman.dev@gmail.com"; }}
                   className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-accent hover:bg-accent/80 font-bold font-mono text-[10px] tracking-wider uppercase transition-all flex items-center justify-center gap-2 active:scale-95 shadow-lg shadow-accent/10 cursor-pointer"
                 >
                   <span>Launch Mail Client</span>
@@ -873,10 +873,10 @@ export default function App() {
 
   // Typing effect in Hero
   const titleCarousel = useMemo(() => [
-    "Community Moderator",
-    "EdTech Infrastructure Lead",
-    "Junior Marketing Executive",
-    "Creative AI Designer"
+    "Full-Stack Web Developer",
+    "Platform Architect",
+    "Technical Lead Coordinator",
+    "Creative AI Developer"
   ], []);
   const [carouselIndex, setCarouselIndex] = useState(0);
   const [carouselText, setCarouselText] = useState("");
@@ -890,7 +890,7 @@ export default function App() {
   useEffect(() => {
     const tick = () => {
       const now = new Date();
-      // Chittagong UTC+6 time
+      // Dhaka UTC+6 time
       const options = { timeZone: 'Asia/Dhaka', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true } as const;
       setCurrentTime(now.toLocaleTimeString('en-US', options));
     };
@@ -983,7 +983,7 @@ export default function App() {
 
   // Quick Copy Email Utility
   const copyMailToClipboard = () => {
-    navigator.clipboard.writeText("raniksen202024@gmail.com");
+    navigator.clipboard.writeText("zayan.rahman.dev@gmail.com");
     setCopied(true);
     playSynthSound('success', muted);
     setTimeout(() => setCopied(false), 2000);
@@ -999,55 +999,55 @@ export default function App() {
   const projectsData: Project[] = [
     {
       id: 1,
-      title: "Math & Science Nards",
-      role: "Lead Platform Moderator",
+      title: "DevFlow Platform",
+      role: "Platform Lead",
       period: "2025 - Present",
       category: "COMMUNITY PLATFORM",
-      desc: "An enormous student network connected with the Apars Classroom (ACS) edtech initiative. Administered content screening and system compliance to protect and support highly active discussions.",
+      desc: "A collaborative community workspace for developers to share snippets, debug live code, and participate in peer-led masterclasses. Optimized asset rendering algorithms and custom interaction layers.",
       metrics: [
-        { label: "Community Members", value: "4.5 Lakh+" },
-        { label: "Monthly Interactions", value: "250K+" },
-        { label: "Admin Actions", value: "12,000+" }
+        { label: "Active Developers", value: "50K+" },
+        { label: "Snippets Saved", value: "120K+" },
+        { label: "Monthly Interactions", value: "80K+" }
       ],
-      tags: ["Facebook API", "EdTech Ops", "Moderation Bots", "Event Logistics"],
+      tags: ["React", "TypeScript", "WebSocket", "Tailwind CSS"],
       highlights: [
-        "Maintained educational integrity across major student traffic pools",
-        "Configured robust content filtration matrices for learning modules",
-        "Orchestrated direct feedback channels for senior lecturers and moderators"
+        "Designed low-latency live feedback pipelines for coding sandboxes",
+        "Implemented role-based permission schemes with clean UI access controls",
+        "Optimized asset rendering algorithms reducing initial visual load times by 40%"
       ]
     },
     {
       id: 2,
-      title: "Achieve Exam Centre Hub",
-      role: "Marketing & Registration Executive",
+      title: "CodeSync Central Hub",
+      role: "Lead Coordinator",
       period: "2025 - Present",
       category: "OPERATIONAL FLOWS",
-      desc: "Designed and coordinated marketing campaigns and logistic systems for physical registration, results monitoring, and offline testing centers linked alongside the online ACS ecosystem.",
+      desc: "Coordinated online registrations, cohort schedules, and physical coding workshops across multiple local academic centers and virtual environments.",
       metrics: [
-        { label: "Physical Registrations", value: "5,000+" },
-        { label: "Offline Testing Sites", value: "Multiple Sites" },
-        { label: "Local Conversion Rate", value: "+34%" }
+        { label: "Total Participants", value: "8,000+" },
+        { label: "Workshops Organized", value: "30+" },
+        { label: "Retention Increase", value: "+28%" }
       ],
-      tags: ["Microsoft Excel Master", "System Logistics", "Local Marketing Campaigns"],
+      tags: ["Logistics Ops", "Node.js API", "Event Coordination"],
       highlights: [
-        "Engineered registration tracking pipelines for large batch student enrollments",
-        "Maintained high speed databases ensuring error-free student result delivery",
-        "Initiated on-field localized campaigns in Chittagong region"
+        "Engineered custom automated enrollment dashboards for large learning cohorts",
+        "Integrated automated SMS alerts and verification channels for testing checkpoints",
+        "Managed multi-center schedules ensuring seamless physical and virtual operations"
       ]
     },
     {
       id: 3,
-      title: "GenAI EdTech Automation Bot",
+      title: "GenAI Automation Engine",
       role: "Solo Developer / Architect",
       period: "2024",
       category: "ARTIFICIAL INTELLIGENCE",
-      desc: "Constructed an automated assistant using Google's Gemini Pro API to process, tag, and sort academic posts, filtering questions and summarizing complex student discussions.",
+      desc: "Built an intelligent assistant utilizing Google's Gemini Flash SDK to automatically categorize, label, and route community queries, boosting triage efficiency.",
       metrics: [
-        { label: "Filtering Speed", value: "<1.2s" },
-        { label: "Tagging Accuracy", value: "94%" },
-        { label: "Inquiries Sorted", value: "10,000+" }
+        { label: "Inference Speed", value: "<0.8s" },
+        { label: "Classification Accuracy", value: "96%" },
+        { label: "Automated Actions", value: "25,000+" }
       ],
-      tags: ["Google Gemini API", "Node.js", "Express", "Vite React"],
+      tags: ["Google GenAI SDK", "Express", "React", "Serverless"],
       highlights: [
         "Integrated modern server-side proxies to hide API credentials safely",
         "Parsed complex mathematics and chemistry notations seamlessly using regex patterns",
@@ -1063,41 +1063,41 @@ export default function App() {
   const experiencesData: Experience[] = [
     {
       id: 1,
-      title: "Junior Marketing Executive",
-      company: "Achieve Exam Centre",
-      location: "Chittagong, Bangladesh",
+      title: "Full-Stack Web Developer",
+      company: "DevFlow Platforms",
+      location: "Dhaka, Bangladesh",
       period: "Dec 2025 - Present",
-      desc: "Coordinating offline test logistical workflows, localized campus campaigns, and registering student pipelines in connection with ACS online courses.",
+      desc: "Developing next-generation community-centric web portals and low-latency interaction interfaces for learning portals.",
       bullets: [
-        "Constructed operational spreadsheets handling 5,000+ localized database records.",
-        "Increased physical registrations by 34% through targeted high school workshops.",
-        "Supervised results documentation schedules with flawless processing timelines."
+        "Engineered robust interactive components handling high-concurrency websocket rooms.",
+        "Increased user engagement by 35% using fluid framer-motion UI transitions.",
+        "Optimized backend Express queries, resulting in 2.5x faster page renders."
       ]
     },
     {
       id: 2,
-      title: "Student Community Moderator",
-      company: "Apars Classroom (ACS)",
-      location: "Remote / Chittagong",
+      title: "Community Platform Coordinator",
+      company: "CodeSync Academy",
+      location: "Remote / Dhaka",
       period: "Aug 2025 - Present",
-      desc: "Assumed structural leadership of the high-traffic Facebook group 'Math & Science Nards' with 4.5 Lakh+ members.",
+      desc: "Supervised online learner community operations, resolving platform compliance and driving localized camp engagements.",
       bullets: [
-        "Administer academic post queues, ensuring safe peer-to-peer environments.",
-        "Resolved platform compliance conflicts through active liaison with online educators.",
-        "Created customized sorting bots reducing content approval cycle times."
+        "Administered community discussions across channels supporting 50,000+ active users.",
+        "Collaborated with educational coordinators to design and launch weekly interactive hackathons.",
+        "Created custom automated helper bots to handle primary screening procedures."
       ]
     },
     {
       id: 3,
-      title: "National Olympiad Contender",
-      company: "Olympiad Logistics & Comp",
-      location: "Dhaka & Chittagong",
-      period: "2021 - 2025",
-      desc: "Actively trained, organized, and competed in prestigious national competitions focused on computational logic and mathematics.",
+      title: "Technical Assistant",
+      company: "CoreTech Solutions",
+      location: "Dhaka, Bangladesh",
+      period: "2022 - 2024",
+      desc: "Maintained registration databases, organized localized technical workshops, and supported database maintenance.",
       bullets: [
-        "Selected participant at the Bangladesh Mathematical Olympiad (2022).",
-        "Selected competitor at the Bangladesh Olympiad Challenge / Math (2025).",
-        "Collaborated with local student bodies to tutor younger teams in programming concepts."
+        "Maintained relational database entries for 8,000+ cohort registrations.",
+        "Assisted in running local campus coding camps and workshop logistics.",
+        "Configured cloud backup services and monitored system uptime schedules."
       ]
     }
   ];
@@ -1136,7 +1136,7 @@ export default function App() {
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <Terminal size={16} className="text-accent animate-pulse" />
-                  <span className="font-mono text-[10px] tracking-widest text-white/45">RANIK_SYS_BOOT</span>
+                  <span className="font-mono text-[10px] tracking-widest text-white/45">ZAYAN_SYS_BOOT</span>
                 </div>
                 <span className="font-mono text-[9px] text-accent px-1.5 py-0.5 rounded bg-accent/10 font-bold">ONLINE</span>
               </div>
@@ -1174,7 +1174,7 @@ export default function App() {
                 onClick={handleSystemUnlock}
                 className="w-full py-4 rounded-xl font-mono text-xs tracking-widest uppercase font-bold text-white transition-all flex items-center justify-center gap-2 border border-white/5 disabled:opacity-30 bg-accent hover:bg-accent/80 active:scale-[0.98] disabled:cursor-not-allowed cursor-pointer"
               >
-                Enter Ranik's Space
+                Enter Zayan's Space
               </button>
             </div>
           </motion.div>
@@ -1193,7 +1193,7 @@ export default function App() {
           >
             <div className="w-2.5 h-2.5 rounded-full bg-accent animate-ping" />
             <span className="font-bold tracking-widest text-xs uppercase font-mono text-white group-hover:text-accent transition-colors">
-              RANIK_SEN.DEV
+              ZAYAN_RAHMAN.DEV
             </span>
           </a>
 
@@ -1275,7 +1275,7 @@ export default function App() {
                 </a>
               ))}
               <div className="border-t border-white/5 pt-4 flex justify-between items-center text-[10px] font-mono text-white/40">
-                <span>CHITTAGONG, BANGLADESH</span>
+                <span>DHAKA, BANGLADESH</span>
                 <span>{currentTime}</span>
               </div>
             </motion.div>
@@ -1296,17 +1296,17 @@ export default function App() {
 
             <div className="space-y-2">
               <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-none text-white">
-                Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-accent to-indigo-400">Ranik Sen</span>
+                Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-accent to-indigo-400">Zayan Rahman</span>
               </h1>
               <div className="h-8 md:h-12 flex items-center justify-center lg:justify-start">
                 <span className="font-mono text-sm md:text-xl text-white/70 tracking-widest font-bold border-r-2 border-accent/70 pr-2 animate-pulse whitespace-nowrap">
-                  {carouselText || "Community Growth"}
+                  {carouselText || "Web Developer"}
                 </span>
               </div>
             </div>
 
             <p className="text-sm md:text-base text-white/60 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
-              A proactive, energetic tech moderator and community operations leader based in Bangladesh. I specialize in scaling massive student networks, organizing educational logistics, and building beautiful digital products.
+              A proactive, energetic software engineer and community coordinator based in Bangladesh. I specialize in building next-generation web platforms, developing clean user interfaces, and managing scalable database pipelines.
             </p>
 
             {/* CTAs */}
@@ -1334,16 +1334,16 @@ export default function App() {
             {/* Local Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8 max-w-sm mx-auto lg:mx-0 text-left border-t border-white/5 font-mono">
               <div>
-                <h4 className="text-xl md:text-2xl font-black text-white">450K+</h4>
-                <p className="text-[9px] text-white/40 uppercase tracking-widest mt-1">Students Managed</p>
+                <h4 className="text-xl md:text-2xl font-black text-white">5+</h4>
+                <p className="text-[9px] text-white/40 uppercase tracking-widest mt-1">Active Projects</p>
               </div>
               <div>
-                <h4 className="text-xl md:text-2xl font-black text-white">5K+</h4>
-                <p className="text-[9px] text-white/40 uppercase tracking-widest mt-1">Registrations</p>
+                <h4 className="text-xl md:text-2xl font-black text-white">50K+</h4>
+                <p className="text-[9px] text-white/40 uppercase tracking-widest mt-1">Users Reached</p>
               </div>
               <div>
-                <h4 className="text-xl md:text-2xl font-black text-white">75+</h4>
-                <p className="text-[9px] text-white/40 uppercase tracking-widest mt-1">WPM Typing Speed</p>
+                <h4 className="text-xl md:text-2xl font-black text-white">100%</h4>
+                <p className="text-[9px] text-white/40 uppercase tracking-widest mt-1">Build Success</p>
               </div>
             </div>
           </div>
@@ -1389,37 +1389,37 @@ export default function App() {
               >
                 <img
                   src={ranikAvatar}
-                  alt="Ranik Sen Portrait"
+                  alt="Zayan Rahman Portrait"
                   className="w-full h-full object-cover rounded-[14px] group-hover/avatar:scale-110 transition-transform"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <div className="space-y-1">
                 <div className="flex items-center gap-2">
-                  <h3 className="text-xl md:text-2xl font-bold">Ranik Sen</h3>
+                  <h3 className="text-xl md:text-2xl font-bold">Zayan Rahman</h3>
                   <span className="px-2 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-mono text-[8px] font-black uppercase">
                     ONLINE PROTOCOL
                   </span>
                 </div>
                 <p className="text-xs text-accent font-mono tracking-widest uppercase font-semibold">
-                  Community Architect & EdTech Operations Lead
+                  Full-Stack Developer & Community Coordinator
                 </p>
               </div>
             </div>
 
             <p className="text-sm text-white/60 leading-relaxed">
-              Based in Chittagong, Bangladesh, I bridge the gap between human scaling and software automations. I am a highly motivated student currently managing huge academic networks connected directly with Apars Classroom (ACS). I enjoy building interactive web apps and compiling systems to streamline organizational workloads.
+              Based in Dhaka, Bangladesh, I bridge the gap between high-performance code and collaborative platforms. I am a highly motivated developer focused on creating responsive web applications, managing modern database pipelines, and automating organizational workflows.
             </p>
 
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-4 border-t border-white/5">
               <div className="grid grid-cols-2 gap-4 text-xs font-mono">
                 <div className="flex items-center gap-2">
                   <MapPin size={14} className="text-accent" />
-                  <span className="text-white/70">Chittagong, BD</span>
+                  <span className="text-white/70">Dhaka, BD</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <GraduationCap size={14} className="text-accent" />
-                  <span className="text-white/70">Chittagong College</span>
+                  <span className="text-white/70">Brac University</span>
                 </div>
               </div>
 
@@ -1442,7 +1442,7 @@ export default function App() {
 
             <div className="space-y-3">
               <p className="text-xs text-white/50 leading-relaxed">
-                Need help moderating community queues, designing local campaigns, or setting up AI automations? Reach me directly.
+                Need help building responsive web interfaces, designing full-stack systems, or integrating AI capabilities? Reach me directly.
               </p>
 
               <button
@@ -1450,7 +1450,7 @@ export default function App() {
                 onMouseEnter={hoverSound}
                 className="w-full py-3.5 px-4 rounded-xl border border-white/5 hover:border-accent/30 bg-white/5 hover:bg-accent/5 font-mono text-xs font-bold text-accent transition-all flex items-center justify-between active:scale-95 cursor-pointer"
               >
-                <span className="truncate">raniksen202024@gmail.com</span>
+                <span className="truncate">zayan.rahman.dev@gmail.com</span>
                 {copied ? <Check size={14} className="text-emerald-400" /> : <Copy size={14} />}
               </button>
             </div>
@@ -1465,14 +1465,14 @@ export default function App() {
 
             <div className="flex flex-wrap gap-2">
               {[
-                "Community Scaling",
-                "Marketing Logistics",
-                "Generative AI APIs",
-                "Microsoft Office Specialist",
-                "Spreadsheet Databases",
-                "Typing (75+ WPM)",
-                "Workflow Automations",
-                "React / TailwindCSS"
+                "React / Next.js",
+                "TypeScript",
+                "Node.js / Express",
+                "Tailwind CSS",
+                "MongoDB / PostgreSQL",
+                "Git / GitHub Flow",
+                "RESTful APIs",
+                "Generative AI SDK"
               ].map((skill, idx) => (
                 <span 
                   key={idx}
@@ -1756,7 +1756,7 @@ export default function App() {
 
               {formStatus === 'success' && (
                 <p className="text-center font-mono text-[10px] text-emerald-400">
-                  Thank you! Ranik will respond via email as soon as possible.
+                  Thank you! Zayan will respond via email as soon as possible.
                 </p>
               )}
 
@@ -1776,7 +1776,7 @@ export default function App() {
             <div className="grid grid-cols-2 gap-4">
               
               <a 
-                href="https://www.linkedin.com/in/ranik-sen" 
+                href="https://www.linkedin.com" 
                 target="_blank" 
                 rel="noreferrer"
                 onMouseEnter={hoverSound}
@@ -1812,7 +1812,7 @@ export default function App() {
               </a>
 
               <a 
-                href="mailto:raniksen202024@gmail.com" 
+                href="mailto:zayan.rahman.dev@gmail.com" 
                 onMouseEnter={hoverSound}
                 onClick={clack}
                 className="p-4 rounded-2xl bg-white/5 border border-white/5 hover:border-accent/30 transition-all flex flex-col justify-between h-28 group"
@@ -1834,7 +1834,7 @@ export default function App() {
       {/* --- FOOTER --- */}
       <footer className="border-t border-white/5 mt-20 pt-10 pb-16 text-center space-y-4">
         <p className="font-mono text-xs text-white/40 tracking-wider">
-          &copy; {new Date().getFullYear()} RANIK SEN. CHITTAGONG, BANGLADESH.
+          &copy; {new Date().getFullYear()} ZAYAN RAHMAN. DHAKA, BANGLADESH.
         </p>
         <p className="font-mono text-[9px] text-white/20 uppercase tracking-widest">
           COORDINATED WITH PASSION • POWERED BY REACT, TAILWIND V4 & MOTION
